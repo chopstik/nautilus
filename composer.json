@@ -1,8 +1,8 @@
 {
-    "name": "samayo/bulletproof",
+    "name": "samayo/nautilus",
     "description": "PHP Secure Image Uploader, Cropper, Watermark, and Image Reisizing tool",
     "keywords": ["image", "upload","watermark", "crop", "resize"],
-    "homepage": "http://github.com/samayo/BulletProof",
+    "homepage": "http://github.com/samayo/nautilus",
     "license": "public domain",
     "authors": [
         {
@@ -14,7 +14,7 @@
     },
     "autoload": {
             "files": [
-                "src/bulletproof.php"
+                "src/nautilus.php"
             ]
     }
 }

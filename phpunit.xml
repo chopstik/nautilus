@@ -11,7 +11,7 @@
          bootstrap="test/bootstrap.php"
         >
     <testsuites>
-        <testsuite name="BulletProof Tests">
+        <testsuite name="nautilus Tests">
             <directory>./test/</directory>
         </testsuite>
     </testsuites>

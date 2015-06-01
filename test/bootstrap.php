@@ -1,11 +1,11 @@
 <?php
-namespace ImageUploader;
+namespace Image;
 
-require_once(dirname(__FILE__).'/../src/bulletproof.php');
+require_once(dirname(__FILE__).'/../src/nautilus.php');
 
-use ImageUploader\BulletProof;
+use Image\nautilus;
 
-class BulletProofOverride extends BulletProof
+class nautilusOverride extends nautilus
 {
     public function isUploadedFile($file)
     {

@@ -1,5 +1,4 @@
-## BULLETPROOF [![Build Status](https://travis-ci.org/samayo/bulletproof.svg?branch=master)](https://travis-ci.org/samayo/bulletproof.svg?branch=master)
-[![Total Downloads](https://poser.pugx.org/bullet-proof/image-uploader/downloads.svg)](https://packagist.org/packages/bullet-proof/image-uploader) [![Latest Stable Version](https://poser.pugx.org/bullet-proof/image-uploader/v/stable.svg)](https://packagist.org/packages/bullet-proof/image-uploader) [![Latest Unstable Version](https://poser.pugx.org/bullet-proof/image-uploader/v/unstable.svg)](https://packagist.org/packages/bullet-proof/image-uploader) [![License](https://poser.pugx.org/bullet-proof/image-uploader/license.svg)](https://packagist.org/packages/bullet-proof/image-uploader)    
+## nautilus [![Build Status](https://travis-ci.org/samayo/nautilus.svg?branch=master)](https://travis-ci.org/samayo/nautilus.svg?branch=master)
 ----
 A one file/class to **upload**/crop/resize/watermark images in PHP **securely**!!. 
 > enable the `php_exif` extension in your php.ini before using this class.
@@ -8,7 +7,7 @@ A one file/class to **upload**/crop/resize/watermark images in PHP **securely**!
 ```json
 {
     "require": {
-        "bullet-proof/image-uploader": ">=1.0.0"
+        "image/nautilus": ">=1.0.0"
     }
 }
 ```
@@ -16,8 +15,8 @@ A one file/class to **upload**/crop/resize/watermark images in PHP **securely**!
 #### Setup
 ````php
 // just require the class and create the object
-require_once  "src\bulletproof.php";
-$image = new ImageUploader\BulletProof;
+require_once  "src\nautilus.php";
+$image = new Image\nautilus;
 ````
 
 

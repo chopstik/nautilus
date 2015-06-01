@@ -1,24 +1,24 @@
 <?php
 
 /**
- * BULLETPROOF - ALL IN ONE, IMAGE UPLOAD/MANIPULATE. 
+ * nautilus - ALL IN ONE, IMAGE UPLOAD/MANIPULATE. 
  * 
- * @category BULLETPROOF
+ * @category nautilus
  * @license  Free / Luke 3:11
  * @version  1.0.0
- * @link     https://github.com/bivoc/bulletproof
- * @author   bivoc. ~ The force is strong with this one.
+ * @link     https://github.com/samayo/nautilus
+ * @author   samayo. ~ The force is strong with this one.
  *
  */
 
 // Require the main src file. 
-require_once   "../src/BulletProof.php";
+require_once   "../src/nautilus.php";
 
 // Require the HTML form. 
 require_once   "form.html";
 
-// Create an instance of BulletProof
-$bulletProof = new ImageUploader\BulletProof;
+// Create an instance of nautilus
+$nautilus = new Image\nautilus;
 
 try{
 
@@ -37,7 +37,7 @@ try{
  */
 
 if($_FILES){
-	echo $bulletProof
+	echo $nautilus
 		->fileTypes(array("gif", "jpg", "jpeg", "png"))
 		->uploadDir("watermark")
 		->limitSize(array("min"=>1, "max"=>52000))
@@ -49,7 +49,7 @@ if($_FILES){
  /* You must have a provide a watermark (logo.png) for this to work */
 
  /* Always use the try/catch block to handle errors */
- }catch(\ImageUploader\ImageUploaderException $e){
+ }catch(\Image\ImageException $e){
      echo $e->getMessage();
  }
 
