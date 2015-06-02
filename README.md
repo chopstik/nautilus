@@ -7,7 +7,7 @@ A one file/class to **upload**/crop/resize/watermark images in PHP **securely**!
 ```json
 {
     "require": {
-        "image/nautilus": ">=1.0.0"
+        "samayo/nautilus": ">=1.0.0"
     }
 }
 ```
